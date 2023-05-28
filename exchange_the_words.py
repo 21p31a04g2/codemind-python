@@ -1,0 +1,5 @@
+s=input()
+w=s.split(" ")
+x=list(reversed(w))
+y=" ".join(x)
+print(y)
