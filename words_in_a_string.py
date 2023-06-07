@@ -6,4 +6,4 @@ for i in l:
     if i not in p:
       c+=1
       p.append(c)
-print(max(p))
+print(len(p))
