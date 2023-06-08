@@ -5,7 +5,6 @@ for i in range(n):
     if l[i]%2==0:
         c+=1
 if c==len(l):
-        print(True)
+    print(True)
 else:
         print(False)
-    
