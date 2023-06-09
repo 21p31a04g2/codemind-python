@@ -1,9 +1,10 @@
 s=input()
 l=list(s.split())
-p=[]
 c=0
+p=[]
 for i in l:
-    if i not in p:
-      c+=1
-      p.append(c)
+    if i in l:
+        p.append(l.count(i))
 print(len(p))
+        
+        
