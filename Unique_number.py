@@ -1,9 +1,10 @@
 n=list(input())
-l=[]
+p=[]
 for i in n:
-    if i not in l:
-        l.append(i)
-if len(n)==len(l):
+    if i in n:
+        if i not in p:
+            p.append(i)
+if len(n)==len(p):
     print("Unique Number")
 else:
     print("Not Unique Number")
